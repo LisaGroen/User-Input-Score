@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void geleKaart1(View view) {
         geelTeam1 (geel1++);
-        if (geel1 > 2) { geel1 = 0; }
+        if (geel1 > 1) { geel1 = 0; }
     }
 
     public void rodeKaart1(View view) {
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void geleKaart2(View view) {
         geelTeam2 (geel2++);
-        if (geel2 >= 2) { geel2 = 0; }
+        if (geel2 > 1) { geel2 = 0; }
     }
 
     public void rodeKaart2(View view) {
